@@ -2,36 +2,43 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body{
+    background-color: #938274;
+}
+
 #title, #description{
     text-align: center;
     margin: 10px auto;
-    max-width: 200px;
-  }
-  #survey-form{
+    max-width: 400px;
+    color: #B9F18C;
+}
+#survey-form{
     margin: 0 auto;
     padding: 10px 20px;
     width: 70%;
     max-width: 350px;
-  }
-  #name,#email,#number,#dropdown{
+    background-color: #1C0221;
+    color: #7B5E7B;
+
+}
+#name,#email,#number,#dropdown{
     width: 100%;
-  }
-  fieldset{
+}
+fieldset{
     border: none;
-  }
-  label{
+}
+label{
     display: block;
     margin: 0.5rem 0;
-  }
-  input[type="radio"]{
+}
+input[type="radio"]{
     margin: 0 0.5em 0 0;
     vertical-align: middle;
-  }
-  textarea{
+}
+textarea{
     width: 100%;
-  }
-  #submit{
+}
+#submit{
     width: 100%;
-    background-color: green;
     border: none;
-  }
+}
