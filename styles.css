@@ -1,0 +1,35 @@
+#title, #description{
+    /* background-color: green; */
+    text-align: center;
+    margin: 10px auto;
+    max-width: 200px;
+  }
+  #survey-form{
+    /* background-color: green; */
+    margin: 0 auto;
+    padding: 10px 20px;
+    width: 70%;
+    max-width: 350px;
+  }
+  #name,#email,#number,#dropdown{
+    width: 100%;
+  }
+  fieldset{
+    border: none;
+  }
+  label{
+    display: block;
+    margin: 0.5rem 0;
+  }
+  input[type="radio"]{
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  textarea{
+    width: 100%;
+  }
+  #submit{
+    width: 100%;
+    background-color: green;
+    border: none;
+  }
