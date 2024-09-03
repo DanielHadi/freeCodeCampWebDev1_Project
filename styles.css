@@ -1,11 +1,13 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 #title, #description{
-    /* background-color: green; */
     text-align: center;
     margin: 10px auto;
     max-width: 200px;
   }
   #survey-form{
-    /* background-color: green; */
     margin: 0 auto;
     padding: 10px 20px;
     width: 70%;
