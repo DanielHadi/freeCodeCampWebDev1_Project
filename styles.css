@@ -1,9 +1,10 @@
 *{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: fantasy;
 }
 
 body{
-    background-color: #938274;
+    background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
 }
 
 input, select{
@@ -28,9 +29,6 @@ input[type="radio"], input[type="checkbox"]{
 
 textarea{
     content: "";
-}
-
-textarea{
     width: 100%;
 }
 
